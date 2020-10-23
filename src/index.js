@@ -1,6 +1,6 @@
-import './styles.css';
 import menuTemplate from './templates/menu.hbs';
 import menuData from './menu.json';
+import './styles.css';
 
 const markup = menuTemplate(menuData);
 const menu = document.querySelector('.js-menu');
